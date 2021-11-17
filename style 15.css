@@ -1,0 +1,161 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    background-color: blanchedalmond;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content0 {
+    background-color: brown;
+    width: 999px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.content00 {
+    background-color: orange;
+    width: 950px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.content1 {
+    background-color: red;
+    width: 500px;
+    height: 100px;
+    border-radius: 20px;
+    position: relative;
+}
+.content01 {
+    background-color: orchid;
+    width: 950px;
+    height: 100px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+
+
+}
+.content11 {
+    background-color: green;
+    width: 175px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+.content010 {
+    background-color: purple;
+    width: 20px;
+    height: 100px;
+    position: absolute;
+    left: 250px;
+
+
+}
+.content12 {
+    background-color: green;
+    width: 175px;
+    height: 100px;
+}
+.content011 {
+    background-color: purple;
+    width: 20px;
+    height: 100px;
+    position: absolute;
+    left: 300px;
+
+
+}
+.content13 {
+    background-color: green;
+    width: 175px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+}    
+.content012 {
+    background-color: purple;
+    width: 20px;
+    height: 100px;
+    position: absolute;
+    left: 620px;
+
+}
+.content14 {
+    background-color: green;
+    width: 175px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.content013 {
+    background-color: purple;
+    width: 20px;
+    height: 100px;
+    position: absolute;
+    left: 670px;
+
+}
+.content2 {
+    background-color: chartreuse;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+@media all and (min-width:500px) and (max-width:900px) {
+    .content1 {
+        
+    }
+    .content011 {
+        
+    }
+
+
+}
+@media all and (min-width:0px) and (max-width:500px) {
+    .content1 {
+        height: 50px;
+        width: 900px;
+        
+    }
+    .content2 {
+        height: 50px;
+        width: 50px;
+    }
+    .content010 {
+        position: absolute;
+        left: 20px;
+
+    }
+    .content011 {
+        position: absolute;
+        left: 70px;
+
+    }
+    .content012 {
+        position: absolute;
+        left: 840px;
+
+    }
+    .content013 {
+        position: absolute;
+        left: 890px;
+
+    }
+
+}
